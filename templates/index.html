@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Parser</title>
+</head>
+<body>
+    <h1>Upload Resume</h1>
+    <form action="/upload_resume" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if first_name %}
+    <h2>Extracted Resume Details</h2>
+    <p><strong>Full Name:</strong> {{ first_name }} {{ last_name }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <p><strong>Phone:</strong> {{ phone }}</p>
+    <p><strong>Current Position:</strong> {{ position }}</p>
+    <p><strong>Years of Experience:</strong> {{ experience_years }}</p>
+    <p><strong>Skills:</strong> {{ skills }}</p>
+    <p><strong>Work Summary:</strong> {{ work_summary }}</p>
+    <p><strong>Education:</strong> {{ education }}</p>
+    {% endif %}
+</body>
+</html>
