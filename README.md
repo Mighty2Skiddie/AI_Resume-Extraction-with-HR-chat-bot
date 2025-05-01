@@ -38,7 +38,7 @@ This project uses a Large Language Model (LLM) to extract structured information
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/your-username/llm-resume-parser.git
+git clone https://github.com/Mighty2Skiddie/AI_Resume-Extraction-with-HR-chat-bot.git
 cd llm-resume-parser
 ```
 
