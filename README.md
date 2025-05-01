@@ -1,4 +1,4 @@
-# AI_Resume-Exctraction-with-HR-chat-bot
+# AI_Resume-Extraction-with-HR-chat-bot
 
 This project uses a Large Language Model (LLM) to extract structured information from uploaded PDF resumes and enables an HR assistant chatbot to query candidate data — helping recruiters find the best talent faster.
 
